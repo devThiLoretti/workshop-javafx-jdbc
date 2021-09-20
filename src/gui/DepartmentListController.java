@@ -15,13 +15,13 @@ import javafx.scene.control.TableView;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.stage.Stage;
 import model.entities.Department;
-import model.services.DepartmentServices;
+import model.services.DepartmentService;
 
 public class DepartmentListController implements Initializable {
 
-	private DepartmentServices service;
+	private DepartmentService service;
 	
-	public void setDepartmentServices(DepartmentServices service) {
+	public void setDepartmentService(DepartmentService service) {
 		this.service = service;
 	}
 	
